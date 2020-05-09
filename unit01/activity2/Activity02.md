@@ -36,7 +36,7 @@ The purpose of this part is to get acquainted with [Git](https://git-scm.com) an
 The purpose of this part is to work in a collaborative fashion.
 Members of a repository (`shared_repo`) will contribute and perform actions like add, commit, push and pull.
 
-- Create a repository (one per group) in [GitHub](www.github.com)
+- Create a repository (one per group) in [GitHub](https://github.com)
   + Repository name: `shared_repo`
 
 - Invite your classmates as collaborators in this repository
