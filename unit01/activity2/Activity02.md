@@ -8,7 +8,7 @@ The purpose of this part is to get acquainted with [Git](https://git-scm.com) an
 
 - Create an account / Log in to [GitHub](https://github.com).
 
-- Create a new repository in GitHub
+- Create a new repository in [GitHub](https://github.com)
   + Repository name: `my_repo`
 
 - Clone the repository locally (in you computer)
@@ -63,7 +63,7 @@ Members of a repository (`shared_repo`) will contribute and perform actions like
 
 ## Deliverable
 
-- A PDF document that includes a screenshot of the `shared_repo` contributors. You can find the contributors information in the Github's tab `Insights / Contributors`
+- A PDF document that includes a screenshot of the `shared_repo` contributors. You can find the contributors information in the GithHub's tab `Insights / Contributors`
   - Please, include a link to your `collaborative_work.md` file as well.
 
 
