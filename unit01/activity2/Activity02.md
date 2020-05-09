@@ -4,9 +4,9 @@
 
 ## Part 1: Individual part
 
-The purpose of this part is to get acquainted with [Git](https://git-scm.com) and [GitHub](www.github.com)
+The purpose of this part is to get acquainted with [Git](https://git-scm.com) and [GitHub](https://github.com)
 
-- Create an account / Log in to [GitHub](www.github.com).
+- Create an account / Log in to [GitHub](https://github.com).
 
 - Create a new repository in GitHub
   + Repository name: `my_repo`
