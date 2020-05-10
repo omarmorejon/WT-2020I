@@ -78,6 +78,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 9. [Setup GitHub Project Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-project-pages)
    - Go to **Settings → GitHub Pages**
    - From **Source**, select “master branch /docs folder”. If the option isn’t enabled, you likely do not have a docs/ folder in the root of your project.
+   <img width="750" alt="fig_GitHubPages" src="https://user-images.githubusercontent.com/7943442/81508583-2e5a2280-9305-11ea-95d0-282f99c8f465.png">
 10. Test it
    ```
    https://<USERNAME>.github.io/static_website/
