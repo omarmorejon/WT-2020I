@@ -34,7 +34,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
      ```
      echo 'publishDir = "docs"' >> config.toml
      ```
-   - Replace `baseUrl` in the `config.toml` file
+   - Replace `baseURL` in the `config.toml` file
      ```
      baseURL = "https://<USERNAME>.github.io/static_website/"
      ```
