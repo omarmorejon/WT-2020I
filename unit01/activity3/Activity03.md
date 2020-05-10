@@ -107,6 +107,6 @@ Example of a `config.toml` file:
 
 While working on your website, you can post screenshots and your website link on the below issue:
 
-    - https://github.com/alopezag/WT-2020I/issues/1
+- https://github.com/alopezag/WT-2020I/issues/1
 
 The idea, it is to share your knowledge with others.
