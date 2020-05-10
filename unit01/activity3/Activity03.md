@@ -2,7 +2,6 @@
 
 To deploy a static website using [Hugo](https://gohugo.io) (a static web site generator) and host it on GitHub Project Pages.
 
-
 ## Static web site generator
 
 A static web site generator is an application that takes plain text files and compiles them to HTML files.
@@ -29,7 +28,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 4. [Create a webiste using Hugo](https://gohugo.io/getting-started/quick-start/)
    - Website name: `static_website`
      `hugo new site static_website`
-5. Customise your website, for examples:
+5. Customise your website, for example:
    - Add another theme
    - Create extra sections
    - Add posts
@@ -46,19 +45,24 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 10. Test it
    `https://<USERNAME>.github.io/static_website/`
 
-
-
-## Others
+### Configuration file
 
 Example of a `config.toml` file:
 
 ```
-baseURL = "https://<USERNAME>.github.io/static_website/"
-languageCode = "en-us"
-title = "MSIG XXI - My New Hugo Site"
-theme = "ananke"
-publishDir = "docs"
+   baseURL = "https://<USERNAME>.github.io/static_website/"
+   languageCode = "en-us"
+   title = "MSIG XXI - My New Hugo Site"
+   theme = "ananke"
+   publishDir = "docs"
 ```
 
 - Replace the `<USERNAME>` for your actual GitHub username
 - `publishDir = "docs"` is mandatory to work on GithHub Project pages
+
+## Deliverable
+
+- Link to the website
+- Screenshot of the contributors' activity
+
+## Collaboration
