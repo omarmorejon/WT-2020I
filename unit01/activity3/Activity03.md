@@ -27,19 +27,19 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
    `git clone https://github.com/<USERNAME>/static_website.git`
 4. [Create a webiste using Hugo](https://gohugo.io/getting-started/quick-start/)
    - Website name: `static_website`
-     `hugo new site static_website`
+   - `hugo new site static_website`
 5. Customise your website, for example:
    - Add another theme
    - Create extra sections
    - Add posts
    - ...
 6. Test your website, start the Hugo server
-   `hugo server -D`
-   Navigate to your new site at http://localhost:1313/
+   - `hugo server -D`
+   - Navigate to your new site at http://localhost:1313/
 7. Build static pages
    - Add this line `publishDir = "docs"` to the `config.toml` file (set the publish directory)
    - Generate pages
-     `hugo -D`
+     - `hugo -D`
 8. Commit & Push your changes to the remote directory
 9. [Setup GitHub Project Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-project-pages)
 10. Test it
