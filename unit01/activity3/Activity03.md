@@ -1,6 +1,8 @@
-# Assigment 3: Static Website
+# Assignment 3: Static Website
 
 To deploy a static website using [Hugo](https://gohugo.io) (a static web site generator) and host it on GitHub Project Pages.
+
+This is a group activity. Hence, participation of all group members is mandatory.
 
 ## Static web site generator
 
@@ -24,7 +26,9 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 2. Create a repository in [GitHub](https://github.com)
    - repository name: `static_website`
 3. Clone the repository to your computer
-   `git clone https://github.com/<USERNAME>/static_website.git`
+   ```
+   git clone https://github.com/<USERNAME>/static_website.git
+   ```
 4. [Create a webiste using Hugo](https://gohugo.io/getting-started/quick-start/)
    - Website name: `static_website`
      ```
@@ -52,10 +56,12 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
      git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke`
      echo 'theme = "ananke"' >> config.toml
      ```
-   - Create extra sections
    - Add posts
-     - `hugo new posts/my-first-post.md`
-   - ...
+     ```
+     hugo new posts/my-first-post.md
+     ```
+   - Create extra sections
+   - more...
 6. Test your website, start the Hugo server
    - `hugo server -D`
    - Navigate to your new site at http://localhost:1313/
@@ -81,7 +87,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 
 Example of a `config.toml` file:
 
-```
+```toml
    baseURL = "https://<USERNAME>.github.io/static_website/"
    languageCode = "en-us"
    title = "MSIG XXI - My New Hugo Site"
@@ -98,3 +104,9 @@ Example of a `config.toml` file:
 - Screenshot of the contributors' activity
 
 ## Collaboration
+
+While working on your website, you can post screenshots and your website link on the below issue:
+
+    - https://github.com/alopezag/WT-2020I/issues/1
+
+The idea, it is to share your knowledge with others.
