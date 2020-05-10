@@ -38,7 +38,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
      ```
      baseURL = "https://<USERNAME>.github.io/static_website/"
      ```
-   - Your config file should looks like:
+   - Your config file should look like this:
      ```
       baseURL = "https://<USERNAME>.github.io/static_website/"
       languageCode = "en-us"
