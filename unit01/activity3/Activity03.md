@@ -27,8 +27,25 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
    `git clone https://github.com/<USERNAME>/static_website.git`
 4. [Create a webiste using Hugo](https://gohugo.io/getting-started/quick-start/)
    - Website name: `static_website`
-   - `hugo new site static_website`
+     ```
+     hugo new site static_website --force
+     ```
    - Add this line `publishDir = "docs"` to the `config.toml` file (set the publish directory)
+     ```
+     echo 'publishDir = "docs"' >> config.toml
+     ```
+   - Replace `baseUrl` in the `config.toml` file
+     ```
+     baseURL = "https://<USERNAME>.github.io/static_website/"
+     ```
+   - Your config file should looks like:
+     ```
+      baseURL = "https://<USERNAME>.github.io/static_website/"
+      languageCode = "en-us"
+      title = "MSIG XXI - My New Hugo Site"
+      theme = "ananke"
+      publishDir = "docs"
+     ```
 5. Customise your website, for example:
    - Add a theme
      ```
@@ -43,11 +60,22 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
    - `hugo server -D`
    - Navigate to your new site at http://localhost:1313/
 7. Build static pages
-   - `hugo -D`
+   ```
+   hugo -D
+   ```
 8. Commit & Push your changes to the remote directory
+   ```
+   git add .
+   git commit -m "my first website..."
+   git push
+   ```
 9. [Setup GitHub Project Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-project-pages)
+  1. Go to **Settings → GitHub Pages**
+  2. From **Source**, select “master branch /docs folder”. If the option isn’t enabled, you likely do not have a docs/ folder in the root of your project.
 10. Test it
-   `https://<USERNAME>.github.io/static_website/`
+   ```
+   https://<USERNAME>.github.io/static_website/
+   ```
 
 ### Configuration file
 
