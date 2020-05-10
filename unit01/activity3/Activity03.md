@@ -53,7 +53,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 5. Customise your website, for example:
    - Add a theme
      ```
-     git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke`
+     git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
      echo 'theme = "ananke"' >> config.toml
      ```
    - Add posts
