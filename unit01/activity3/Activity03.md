@@ -4,7 +4,7 @@ To deploy a static website using [Hugo](https://gohugo.io) (a static web site ge
 
 ![](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
 
-()## Static web site generator
+## Static web site generator
 
 A static web site generator is an application that takes plain text files and compiles them to HTML files.
 
@@ -27,8 +27,7 @@ A static web site generator is an application that takes plain text files and co
    `hugo server -D`
    Navigate to your new site at http://localhost:1313/
 7. Build static pages
-   - Add this line to the `config.toml` file (set the publish directory)
-     `publishDir = "docs"`
+   - Add this line `publishDir = "docs"` to the `config.toml` file (set the publish directory)
    - Generate pages
      `hugo -D`
 8. Commit & Push your changes to the remote directory
