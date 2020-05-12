@@ -24,13 +24,13 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 
 1. [Install Hugo](https://gohugo.io/getting-started/installing)
 2. Create a repository in [GitHub](https://github.com)
-   - repository name: `static_website`
+   - **repository name**: `static_website`
 3. Clone the repository to your computer
    ```
    git clone https://github.com/<USERNAME>/static_website.git
    ```
 4. [Create a webiste using Hugo](https://gohugo.io/getting-started/quick-start/)
-   - Website name: `static_website`
+   - **Website name**: `static_website`
      ```
      hugo new site static_website --force
      ```
@@ -114,3 +114,7 @@ While working on your website, you can post screenshots and your website link on
 - https://github.com/alopezag/WT-2020I/issues/1
 
 The idea, it is to share your knowledge with others.
+
+If you got any problem/question, you can create a new [issue](https://github.com/alopezag/WT-2020I/issues/) or check in the [current issues](https://github.com/alopezag/WT-2020I/issues/) whether a similar question has been already answered.
+
+- https://github.com/alopezag/WT-2020I/issues/
