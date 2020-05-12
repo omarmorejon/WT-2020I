@@ -40,11 +40,13 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
      ```
    - Replace `baseURL` in the `config.toml` file
      ```
-     baseURL = "https://<USERNAME>.github.io/static_website/"
+     baseURL = "https://<USERNAME>.github.io/<REPOSITORY-NAME>/"
      ```
+     + <USERNAME>: GitHub username
+     + <REPOSITORY-NAME>: Repository name
    - Your config file should look like this:
      ```
-      baseURL = "https://<USERNAME>.github.io/static_website/"
+      baseURL = "https://<USERNAME>.github.io/<REPOSITORY-NAME>/"
       languageCode = "en-us"
       title = "MSIG XXI - My New Hugo Site"
       theme = "ananke"
@@ -81,7 +83,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
    <img width="550" alt="fig_GitHubPages" src="https://user-images.githubusercontent.com/7943442/81508679-bfc99480-9305-11ea-8a25-be0a615d2904.png">
 10. Test it
    ```
-   https://<USERNAME>.github.io/static_website/
+   https://<USERNAME>.github.io/<REPOSITORY-NAME>/
    ```
 
 ### Configuration file
@@ -89,14 +91,15 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 Example of a `config.toml` file:
 
 ```toml
-   baseURL = "https://<USERNAME>.github.io/static_website/"
+   baseURL = "https://<USERNAME>.github.io/<REPOSITORY-NAME>/"
    languageCode = "en-us"
    title = "MSIG XXI - My New Hugo Site"
    theme = "ananke"
    publishDir = "docs"
 ```
 
-- Replace the `<USERNAME>` for your actual GitHub username
+- Replace `<USERNAME>` for your actual GitHub username
+- Replace `<REPOSITORY-NAME> for your repository name
 - `publishDir = "docs"` is mandatory to work on GithHub Project pages
 
 ## Deliverable
