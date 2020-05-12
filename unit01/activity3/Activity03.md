@@ -52,7 +52,7 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
       publishDir = "docs"
      ```
 5. Customise your website, for example:
-   - Add a theme
+   - Add a theme ([more themes](https://themes.gohugo.io))
      ```
      git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
      echo 'theme = "ananke"' >> config.toml
