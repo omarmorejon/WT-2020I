@@ -74,7 +74,8 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
    ```
    git add .
    git commit -m "my first website..."
-   git push
+   git pull     # Download any change from other contributors
+   git push     # Publish your changes
    ```
 9. [Setup GitHub Project Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-project-pages)
    - Go to **Settings → GitHub Pages**
