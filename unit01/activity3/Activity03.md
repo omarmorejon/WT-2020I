@@ -44,12 +44,11 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
      ```
      - Replace `<USERNAME>` for your actual GitHub username
      - Replace `<REPOSITORY-NAME>` for your repository name
-   - Your config file should look like this:
+   - After the previous steps, your config file should look like this:
      ```
       baseURL = "https://<USERNAME>.github.io/<REPOSITORY-NAME>/"
       languageCode = "en-us"
       title = "MSIG XXI - My New Hugo Site"
-      theme = "ananke"
       publishDir = "docs"
      ```
 5. Customise your website, for example:
