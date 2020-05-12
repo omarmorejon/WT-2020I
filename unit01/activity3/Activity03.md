@@ -104,7 +104,7 @@ Example of a `config.toml` file:
 
 ## Deliverable
 
-- Link to the website
+- Link to the **website** and **repository**
 - Screenshot of the contributors' activity
 
 ## Collaboration
