@@ -11,3 +11,7 @@ Write a simple web page that may look like this:
 ## Deliverable
 
 - Html file
+
+## Resources
+
+- https://www.w3schools.com/html/html_exercises.asp
