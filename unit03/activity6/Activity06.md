@@ -11,7 +11,6 @@ This assignment is a debate among various Web Development Frameworks. The idea i
 - Veu vs Angular
 - Laravel vs Django
 - Node.js vs Spring
-- Flutter vs React Native
 
 ### Part 1: Presentation
 
